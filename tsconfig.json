@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "esModuleInterop": true, // Habilita a interoperabilidade de módulos
+    "strict": true, // Habilita todas as verificações estritas
+    "forceConsistentCasingInFileNames": true, // Garante que o casing seja consistente
+    "skipLibCheck": true, // Ignora a checagem de tipos nas bibliotecas
+    "resolveJsonModule": true, // Permite importar arquivos JSON
+    "allowSyntheticDefaultImports": true, // Permite importações sintéticas de módulos CommonJS
+    "noEmit": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
